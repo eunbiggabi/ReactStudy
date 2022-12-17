@@ -1,5 +1,5 @@
-import Word from "./Word"
 import { useState } from "react";
+import { Button, Container, Row, Col } from 'react-bootstrap';
 
 const Hello = ({age}) => {
 
@@ -30,8 +30,15 @@ const Hello = ({age}) => {
     <div>
         <h1>Hello</h1>
         <h2>{name}({increaseAge})</h2>
-        <button onClick={() => setName(name === 'Mike' ? 'Jane' : 'Mike')}>Show name</button>
-        <button onClick={increaseAgeageValue}>Show age</button>
+        <Container>
+            <Row>
+                <Col><Button onClick={() => setName(name === 'Mike' ? 'Jane' : 'Mike')}>Show name</Button></Col>
+                <Col><Button onClick={increaseAgeageValue}>Show age</Button></Col>
+            </Row>
+        </Container>
+       
+        
+        
         <input type="text" onChange={showText}></input>
         <input type="text" onChange={(e) => console.log(e.target.value)}></input>
         <input type="text" onChange={(e) => {
