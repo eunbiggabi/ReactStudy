@@ -1,5 +1,6 @@
 import { render, screen } from '@testing-library/react';
-import App from './App';
+import App from './AppJSX';
+import AppProfile from './AppProfile';
 
 test('renders learn react link', () => {
   render(<App />);

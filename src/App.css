@@ -1,4 +1,4 @@
-.App {
+/* .App {
   text-align: center;
 }
 
@@ -35,4 +35,14 @@
   to {
     transform: rotate(360deg);
   }
+} */
+
+.profile {
+  width: 300px;
+  text-align: center;
+}
+
+img {
+  width: 200px;
+  border-radius: 50%;
 }
