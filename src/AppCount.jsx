@@ -6,19 +6,20 @@ import { useState } from 'react';
 import Count from './components/Count';
 
 
-function AppCount() {
+function AppCount({addCount}) {
 
- const [count, setCount] = useState(0);
+ const [count, setCount] = useState(0)
 
-    function addCount() {
-        setCount(prev => prev + 1);
+    function handleClick() {
+        setCount(prev => prev + 1)
     }
 
   return (
     <Container>
-      <Count />
-      <Count />
-      <Count />
+        <h1>Total Count: {count} {count > 10 ? "fire" : "ice"}</h1>
+      <Count total={count} onClick={handleClick}/>
+      <Count total={count} onClick={handleClick}/>
+      <Count total={count} onClick={handleClick}/>
     </Container>
   );
 }
