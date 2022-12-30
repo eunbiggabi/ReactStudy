@@ -8,15 +8,18 @@ function Count({total, onClick}) {
 
     const [count, setCount] = useState(0);
 
-    function addCount() {
-        setCount(prev => prev + 1);
-        onClick();
-    }
+    // function handleCount() {
+    //   setCount(prev => prev + 1);
+    //   onClick();
+    // }
 
   return (
     <Container>
       <h2>{count} / {total}</h2>
-      <Button onClick={addCount}>+</Button>
+      <Button onClick={() => {
+        setCount(prev => prev + 1);
+        onClick();
+      }}>+</Button>
     </Container>
   );
 }
