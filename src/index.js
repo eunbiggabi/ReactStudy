@@ -7,7 +7,8 @@ import reportWebVitals from './reportWebVitals';
 // import AppJSX from './AppJSX';
 // import AppCount from './AppCount';
 // import AppProducts from './AppProducts';
-import AppXY from './AppXY';
+// import AppXY from './AppXY';
+import AppMentor from './AppMentor';
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
@@ -16,7 +17,8 @@ root.render(
     {/* <AppProfile /> */}
     {/* <AppCount /> */}
     {/* <AppProducts /> */}
-    <AppXY />
+    {/* <AppXY /> */}
+    <AppMentor />
   </React.StrictMode>
 );
 
