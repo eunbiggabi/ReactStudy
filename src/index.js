@@ -1,5 +1,6 @@
 import React from 'react';
 import ReactDOM from 'react-dom/client';
+import AppMentors from './AppMentors';
 import './index.css';
 // import App from './App';
 import reportWebVitals from './reportWebVitals';
@@ -8,7 +9,7 @@ import reportWebVitals from './reportWebVitals';
 // import AppCount from './AppCount';
 // import AppProducts from './AppProducts';
 // import AppXY from './AppXY';
-import AppMentor from './AppMentor';
+// import AppMentor from './AppMentor';
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
@@ -18,7 +19,8 @@ root.render(
     {/* <AppCount /> */}
     {/* <AppProducts /> */}
     {/* <AppXY /> */}
-    <AppMentor />
+    {/* <AppMentor /> */}
+    <AppMentors />
   </React.StrictMode>
 );
 
