@@ -1,6 +1,7 @@
 import React from 'react';
 import ReactDOM from 'react-dom/client';
-import AppMentors from './AppMentors';
+import AppForm from './AppForm';
+// import AppMentors from './AppMentors';
 import './index.css';
 // import App from './App';
 import reportWebVitals from './reportWebVitals';
@@ -20,7 +21,8 @@ root.render(
     {/* <AppProducts /> */}
     {/* <AppXY /> */}
     {/* <AppMentor /> */}
-    <AppMentors />
+    {/* <AppMentors /> */}
+    <AppForm />
   </React.StrictMode>
 );
 
