@@ -1,6 +1,7 @@
 import React from 'react';
 import ReactDOM from 'react-dom/client';
-import AppForm from './AppForm';
+// import AppForm from './AppForm';
+import AppWrap from './AppWrap';
 // import AppMentors from './AppMentors';
 import './index.css';
 // import App from './App';
@@ -22,7 +23,8 @@ root.render(
     {/* <AppXY /> */}
     {/* <AppMentor /> */}
     {/* <AppMentors /> */}
-    <AppForm />
+    {/* <AppForm /> */}
+    <AppWrap />
   </React.StrictMode>
 );
 
